@@ -49,8 +49,13 @@ def key_shape(value: str, prefix: str) -> dict:
 
 
 @router.get("/health/dependencies")
-def dependencies():
-    """Checks each outside service the agent needs. Never returns key values."""
+def dependencies(x_admin_key: str = Header(default="")):
+    """Checks each outside service the agent needs. Never returns key values.
+
+    In the public demo it is hidden unless called with a real (non-default) ADMIN_API_KEY.
+    """
+    if settings.public_demo and (settings.admin_api_key == "change-me" or x_admin_key != settings.admin_api_key):
+        raise HTTPException(status_code=404, detail="Not Found")
     from groq import Groq
     from app.rag.vectorstore import ensure_index, get_embeddings
 
@@ -85,16 +90,13 @@ def chat(payload: ChatRequest, request: Request):
     try:
         result = ask(payload.question)
         write_audit(payload.question, result["source_used"], result.get("trace", []))
-
         return {
             "answer": result["answer"],
             "source_used": result["source_used"],
             "trace": result.get("trace", []),
             "citations": result.get("citations", []),
             "rewritten_query": result.get("current_query", payload.question),
-
         }
-
     except RateLimitError as exc:
         logger.warning("Groq rate limit: %s", exc)
         raise HTTPException(status_code=429, detail="The free AI quota is used up for the moment. Please try again in a few minutes.") from exc
@@ -102,7 +104,6 @@ def chat(payload: ChatRequest, request: Request):
         logger.exception("Chat request failed")
         detail = "Something went wrong while answering. Please try again." if settings.public_demo else str(exc)
         raise HTTPException(status_code=500, detail=detail) from exc
-
 
 
 @router.post("/ingest")

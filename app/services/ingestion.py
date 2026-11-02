@@ -47,7 +47,6 @@ def load_file(path: Path) -> list[Document]:
     raise ValueError(f"Unsupported file type: {suffix}")
 
 
-
 def chunk_documents(docs: Iterable[Document]) -> list[Document]:
     splitter = RecursiveCharacterTextSplitter(chunk_size=900, chunk_overlap=120, add_start_index=True)
     chunks = splitter.split_documents(list(docs))

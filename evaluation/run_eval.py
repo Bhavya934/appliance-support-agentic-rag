@@ -29,7 +29,7 @@ from evaluation.facts import supports
 settings = get_settings()
 HERE = Path(__file__).parent
 JUDGE_MODEL = "qwen/qwen3.8-27b"  # different model from the copilot, so it doesn't grade its own answers
-EXPECTED_SOURCE = {"kb": "private_kb", "web": "web_search", "direct": "direct"}
+EXPECTED_SOURCE = {"kb": "manuals", "web": "web_search", "direct": "direct"}
 RETRIEVAL_K = 10
 
 
@@ -60,7 +60,7 @@ def retrieval_ranks(question: dict) -> dict:
 
 
 def judge(judge_llm, question: dict, result: dict) -> Verdict:
-    if result["source_used"] == "private_kb":
+    if result["source_used"] == "manuals":
         context = "\n\n".join(d.page_content for d in result.get("kb_docs", []))
     else:
         context = result.get("web_results", "")

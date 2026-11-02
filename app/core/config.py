@@ -6,7 +6,6 @@ BASE_DIR = Path(__file__).resolve().parents[2]
 
 class Settings(BaseSettings):
     app_name: str = "Home Appliance Support Copilot"
-    app_env: str = "development"
     groq_api_key: str = ""
     tavily_api_key: str = ""
     pinecone_api_key: str = ""
@@ -31,8 +30,6 @@ class Settings(BaseSettings):
     demo_max_question_chars: int = 500
 
     model_config = SettingsConfigDict(env_file=str(BASE_DIR / ".env"), extra="ignore")
-
-
 
 
 @lru_cache
