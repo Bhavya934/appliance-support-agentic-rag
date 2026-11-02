@@ -1,0 +1,7 @@
+{
+  "model": "openai/gpt-oss-20b",
+  "timestamp": "20261101-1723",
+  "router_accuracy_%": 100.0,
+  "router_errors": [],
+  "router_avg_tokens": 335
+}

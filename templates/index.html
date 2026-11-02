@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ app_name }}</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div>
+        <h1>Appliance Support<br/>Copilot</h1>
+        <p class="muted">Official Bosch &amp; Siemens manuals first. External web only when evidence is weak.</p>
+      </div>
+
+      <div class="workflow-card">
+        <h3>LangGraph Workflow</h3>
+        <div class="flow-step">1. Route question</div>
+        <div class="flow-step">2. Retrieve from manuals</div>
+        <div class="flow-step">3. Grade evidence</div>
+        <div class="flow-step">4. Web fallback if weak</div>
+        <div class="flow-step">5. Rewrite & retry</div>
+        <div class="flow-step">6. Grounded answer</div>
+      </div>
+
+      {% if settings.public_demo %}
+      <p class="demo-note">Public demo · {{ settings.demo_questions_per_ip_per_hour }} questions per hour per visitor. Runs on free API tiers, so answers can take a few seconds.</p>
+      {% else %}
+      <button id="openUpload" class="secondary-btn">+ Add Appliance Manual</button>
+      {% endif %}
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <span class="status-dot"></span>
+          <span>Home Appliance Support Copilot</span>
+        </div>
+      </header>
+
+      <section id="chat" class="chat-area">
+        <div class="message assistant">
+          <div class="avatar">AI</div>
+          <div class="bubble">
+            <strong>How can I help with your appliance?</strong>
+            <p>Ask about washing machines, dryers, dishwashers, fridges, ovens or induction hobs. Mention the brand or model for a more precise answer.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="composer-wrap">
+        <div class="examples">
+          <button class="example">How do I clean the filter on my Bosch dishwasher?</button>
+          <button class="example">My washing machine won't drain. What should I check?</button>
+          <button class="example">Is there a recall on Bosch dishwashers?</button>
+        </div>
+        <form id="chatForm" class="composer">
+          <textarea id="question" rows="2" placeholder="Ask an appliance support question… (Enter to send, Shift+Enter for a new line)" required></textarea>
+          <button type="submit" class="send-btn">Ask Agent</button>
+        </form>
+      </section>
+    </main>
+
+    <aside class="trace-panel">
+      <h2>Agent Trace</h2>
+      <p class="muted">Watch LangGraph decisions while the request runs.</p>
+      <div id="trace" class="trace-list"><div class="empty">No request yet.</div></div>
+      <div class="source-box">
+        <span>Final Source</span>
+        <strong id="sourceUsed">—</strong>
+      </div>
+    </aside>
+  </div>
+
+  <div id="uploadModal" class="modal hidden">
+    <div class="modal-card">
+      <div class="modal-head"><h2>Ingest Appliance Manual</h2><button id="closeUpload">×</button></div>
+      <p class="muted">Upload PDF, TXT, Markdown, or DOCX. The document is chunked, embedded, and indexed into Pinecone.</p>
+      <input id="adminKey" type="password" placeholder="Admin API key" />
+      <input id="fileInput" type="file" accept=".pdf,.txt,.md,.docx" />
+      <button id="uploadBtn" class="send-btn full">Index Document</button>
+      <div id="uploadStatus" class="upload-status"></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.6/purify.min.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

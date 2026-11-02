@@ -1,0 +1,15 @@
+{
+  "model": "openai/gpt-oss-20b",
+  "timestamp": "20261101-1701",
+  "router_accuracy_%": 98.4,
+  "router_errors": [
+    "web-02"
+  ],
+  "router_avg_tokens": 273,
+  "grader_accuracy_%": 100.0,
+  "grader_good_on_kb_%": 100.0,
+  "grader_good_on_kb_when_evidence_retrieved_%": 100.0,
+  "grader_weak_on_web_%": 100.0,
+  "grader_errors": [],
+  "grader_avg_tokens": 1291
+}

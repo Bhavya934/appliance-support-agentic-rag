@@ -1,0 +1,119 @@
+{"step": "router", "id": "kb-01", "decision": "kb", "correct": true, "tokens": 252}
+{"step": "router", "id": "kb-02", "decision": "kb", "correct": true, "tokens": 231}
+{"step": "router", "id": "kb-03", "decision": "kb", "correct": true, "tokens": 244}
+{"step": "router", "id": "kb-04", "decision": "kb", "correct": true, "tokens": 235}
+{"step": "router", "id": "kb-05", "decision": "kb", "correct": true, "tokens": 283}
+{"step": "router", "id": "kb-06", "decision": "kb", "correct": true, "tokens": 277}
+{"step": "router", "id": "kb-07", "decision": "kb", "correct": true, "tokens": 235}
+{"step": "router", "id": "kb-08", "decision": "kb", "correct": true, "tokens": 267}
+{"step": "router", "id": "kb-09", "decision": "kb", "correct": true, "tokens": 273}
+{"step": "router", "id": "kb-10", "decision": "kb", "correct": true, "tokens": 234}
+{"step": "router", "id": "kb-11", "decision": "kb", "correct": true, "tokens": 238}
+{"step": "router", "id": "kb-12", "decision": "kb", "correct": true, "tokens": 237}
+{"step": "router", "id": "kb-13", "decision": "kb", "correct": true, "tokens": 296}
+{"step": "router", "id": "kb-14", "decision": "kb", "correct": true, "tokens": 238}
+{"step": "router", "id": "kb-15", "decision": "kb", "correct": true, "tokens": 276}
+{"step": "router", "id": "kb-16", "decision": "kb", "correct": true, "tokens": 236}
+{"step": "router", "id": "kb-17", "decision": "kb", "correct": true, "tokens": 275}
+{"step": "router", "id": "kb-18", "decision": "kb", "correct": true, "tokens": 233}
+{"step": "router", "id": "kb-19", "decision": "kb", "correct": true, "tokens": 273}
+{"step": "router", "id": "kb-20", "decision": "kb", "correct": true, "tokens": 242}
+{"step": "router", "id": "kb-21", "decision": "kb", "correct": true, "tokens": 261}
+{"step": "router", "id": "kb-22", "decision": "kb", "correct": true, "tokens": 239}
+{"step": "router", "id": "kb-23", "decision": "kb", "correct": true, "tokens": 236}
+{"step": "router", "id": "kb-24", "decision": "kb", "correct": true, "tokens": 237}
+{"step": "router", "id": "kb-25", "decision": "kb", "correct": true, "tokens": 239}
+{"step": "router", "id": "kb-26", "decision": "kb", "correct": true, "tokens": 288}
+{"step": "router", "id": "kb-27", "decision": "kb", "correct": true, "tokens": 235}
+{"step": "router", "id": "kb-28", "decision": "kb", "correct": true, "tokens": 288}
+{"step": "router", "id": "kb-29", "decision": "kb", "correct": true, "tokens": 237}
+{"step": "router", "id": "kb-30", "decision": "kb", "correct": true, "tokens": 262}
+{"step": "router", "id": "kb-31", "decision": "kb", "correct": true, "tokens": 255}
+{"step": "router", "id": "kb-32", "decision": "kb", "correct": true, "tokens": 298}
+{"step": "router", "id": "kb-33", "decision": "kb", "correct": true, "tokens": 322}
+{"step": "router", "id": "kb-34", "decision": "kb", "correct": true, "tokens": 299}
+{"step": "router", "id": "kb-35", "decision": "kb", "correct": true, "tokens": 296}
+{"step": "router", "id": "kb-36", "decision": "kb", "correct": true, "tokens": 282}
+{"step": "router", "id": "kb-37", "decision": "kb", "correct": true, "tokens": 233}
+{"step": "router", "id": "kb-38", "decision": "kb", "correct": true, "tokens": 240}
+{"step": "router", "id": "kb-39", "decision": "kb", "correct": true, "tokens": 259}
+{"step": "router", "id": "kb-40", "decision": "kb", "correct": true, "tokens": 252}
+{"step": "router", "id": "kb-41", "decision": "kb", "correct": true, "tokens": 239}
+{"step": "router", "id": "kb-42", "decision": "kb", "correct": true, "tokens": 235}
+{"step": "router", "id": "kb-43", "decision": "kb", "correct": true, "tokens": 251}
+{"step": "router", "id": "kb-44", "decision": "kb", "correct": true, "tokens": 282}
+{"step": "router", "id": "kb-45", "decision": "kb", "correct": true, "tokens": 242}
+{"step": "router", "id": "kb-46", "decision": "kb", "correct": true, "tokens": 276}
+{"step": "router", "id": "kb-47", "decision": "kb", "correct": true, "tokens": 240}
+{"step": "router", "id": "web-01", "decision": "kb", "correct": true, "tokens": 252}
+{"step": "router", "id": "web-02", "decision": "direct", "correct": false, "tokens": 450}
+{"step": "router", "id": "web-03", "decision": "kb", "correct": true, "tokens": 269}
+{"step": "router", "id": "web-04", "decision": "kb", "correct": true, "tokens": 254}
+{"step": "router", "id": "web-05", "decision": "kb", "correct": true, "tokens": 262}
+{"step": "router", "id": "web-06", "decision": "kb", "correct": true, "tokens": 297}
+{"step": "router", "id": "web-07", "decision": "kb", "correct": true, "tokens": 277}
+{"step": "router", "id": "web-08", "decision": "kb", "correct": true, "tokens": 258}
+{"step": "router", "id": "web-09", "decision": "kb", "correct": true, "tokens": 323}
+{"step": "router", "id": "web-10", "decision": "kb", "correct": true, "tokens": 400}
+{"step": "router", "id": "direct-01", "decision": "direct", "correct": true, "tokens": 417}
+{"step": "router", "id": "direct-02", "decision": "direct", "correct": true, "tokens": 381}
+{"step": "router", "id": "direct-03", "decision": "direct", "correct": true, "tokens": 305}
+{"step": "router", "id": "direct-04", "decision": "direct", "correct": true, "tokens": 280}
+{"step": "router", "id": "direct-05", "decision": "direct", "correct": true, "tokens": 373}
+{"step": "grader", "id": "kb-01", "expected": "good", "decision": "good", "correct": true, "tokens": 1269, "evidence_present": false}
+{"step": "grader", "id": "kb-02", "expected": "good", "decision": "good", "correct": true, "tokens": 1135, "evidence_present": true}
+{"step": "grader", "id": "kb-03", "expected": "good", "decision": "good", "correct": true, "tokens": 1543, "evidence_present": true}
+{"step": "grader", "id": "kb-04", "expected": "good", "decision": "good", "correct": true, "tokens": 1286, "evidence_present": true}
+{"step": "grader", "id": "kb-05", "expected": "good", "decision": "good", "correct": true, "tokens": 1273, "evidence_present": true}
+{"step": "grader", "id": "kb-06", "expected": "good", "decision": "good", "correct": true, "tokens": 1294, "evidence_present": true}
+{"step": "grader", "id": "kb-07", "expected": "good", "decision": "good", "correct": true, "tokens": 1511, "evidence_present": true}
+{"step": "grader", "id": "kb-08", "expected": "good", "decision": "good", "correct": true, "tokens": 1374, "evidence_present": true}
+{"step": "grader", "id": "kb-09", "expected": "good", "decision": "good", "correct": true, "tokens": 1446, "evidence_present": true}
+{"step": "grader", "id": "kb-10", "expected": "good", "decision": "good", "correct": true, "tokens": 1231, "evidence_present": false}
+{"step": "grader", "id": "kb-11", "expected": "good", "decision": "good", "correct": true, "tokens": 1249, "evidence_present": true}
+{"step": "grader", "id": "kb-12", "expected": "good", "decision": "good", "correct": true, "tokens": 1286, "evidence_present": true}
+{"step": "grader", "id": "kb-13", "expected": "good", "decision": "good", "correct": true, "tokens": 1434, "evidence_present": true}
+{"step": "grader", "id": "kb-14", "expected": "good", "decision": "good", "correct": true, "tokens": 1290, "evidence_present": true}
+{"step": "grader", "id": "kb-15", "expected": "good", "decision": "good", "correct": true, "tokens": 1155, "evidence_present": true}
+{"step": "grader", "id": "kb-16", "expected": "good", "decision": "good", "correct": true, "tokens": 1321, "evidence_present": true}
+{"step": "grader", "id": "kb-17", "expected": "good", "decision": "good", "correct": true, "tokens": 1290, "evidence_present": true}
+{"step": "grader", "id": "kb-18", "expected": "good", "decision": "good", "correct": true, "tokens": 1254, "evidence_present": true}
+{"step": "grader", "id": "kb-19", "expected": "good", "decision": "good", "correct": true, "tokens": 1391, "evidence_present": true}
+{"step": "grader", "id": "kb-20", "expected": "good", "decision": "good", "correct": true, "tokens": 1263, "evidence_present": true}
+{"step": "grader", "id": "kb-21", "expected": "good", "decision": "good", "correct": true, "tokens": 1251, "evidence_present": true}
+{"step": "grader", "id": "kb-22", "expected": "good", "decision": "good", "correct": true, "tokens": 1400, "evidence_present": true}
+{"step": "grader", "id": "kb-23", "expected": "good", "decision": "good", "correct": true, "tokens": 1325, "evidence_present": true}
+{"step": "grader", "id": "kb-24", "expected": "good", "decision": "good", "correct": true, "tokens": 968, "evidence_present": true}
+{"step": "grader", "id": "kb-25", "expected": "good", "decision": "good", "correct": true, "tokens": 1216, "evidence_present": true}
+{"step": "grader", "id": "kb-26", "expected": "good", "decision": "good", "correct": true, "tokens": 1255, "evidence_present": true}
+{"step": "grader", "id": "kb-27", "expected": "good", "decision": "good", "correct": true, "tokens": 1224, "evidence_present": true}
+{"step": "grader", "id": "kb-28", "expected": "good", "decision": "good", "correct": true, "tokens": 1271, "evidence_present": true}
+{"step": "grader", "id": "kb-29", "expected": "good", "decision": "good", "correct": true, "tokens": 1309, "evidence_present": true}
+{"step": "grader", "id": "kb-30", "expected": "good", "decision": "good", "correct": true, "tokens": 1333, "evidence_present": true}
+{"step": "grader", "id": "kb-31", "expected": "good", "decision": "good", "correct": true, "tokens": 1205, "evidence_present": true}
+{"step": "grader", "id": "kb-32", "expected": "good", "decision": "good", "correct": true, "tokens": 1990, "evidence_present": false}
+{"step": "grader", "id": "kb-33", "expected": "good", "decision": "good", "correct": true, "tokens": 1145, "evidence_present": true}
+{"step": "grader", "id": "kb-34", "expected": "good", "decision": "good", "correct": true, "tokens": 1389, "evidence_present": true}
+{"step": "grader", "id": "kb-35", "expected": "good", "decision": "good", "correct": true, "tokens": 1504, "evidence_present": true}
+{"step": "grader", "id": "kb-36", "expected": "good", "decision": "good", "correct": true, "tokens": 1462, "evidence_present": true}
+{"step": "grader", "id": "kb-37", "expected": "good", "decision": "good", "correct": true, "tokens": 1441, "evidence_present": true}
+{"step": "grader", "id": "kb-38", "expected": "good", "decision": "good", "correct": true, "tokens": 1114, "evidence_present": true}
+{"step": "grader", "id": "kb-39", "expected": "good", "decision": "good", "correct": true, "tokens": 1314, "evidence_present": true}
+{"step": "grader", "id": "kb-40", "expected": "good", "decision": "good", "correct": true, "tokens": 1384, "evidence_present": true}
+{"step": "grader", "id": "kb-41", "expected": "good", "decision": "good", "correct": true, "tokens": 1112, "evidence_present": true}
+{"step": "grader", "id": "kb-42", "expected": "good", "decision": "good", "correct": true, "tokens": 1226, "evidence_present": true}
+{"step": "grader", "id": "kb-43", "expected": "good", "decision": "good", "correct": true, "tokens": 1568, "evidence_present": true}
+{"step": "grader", "id": "kb-44", "expected": "good", "decision": "good", "correct": true, "tokens": 1462, "evidence_present": true}
+{"step": "grader", "id": "kb-45", "expected": "good", "decision": "good", "correct": true, "tokens": 1315, "evidence_present": true}
+{"step": "grader", "id": "kb-46", "expected": "good", "decision": "good", "correct": true, "tokens": 1264, "evidence_present": true}
+{"step": "grader", "id": "kb-47", "expected": "good", "decision": "good", "correct": true, "tokens": 1142, "evidence_present": true}
+{"step": "grader", "id": "web-01", "expected": "weak", "decision": "weak", "correct": true, "tokens": 948}
+{"step": "grader", "id": "web-02", "expected": "weak", "decision": "weak", "correct": true, "tokens": 1017}
+{"step": "grader", "id": "web-03", "expected": "weak", "decision": "weak", "correct": true, "tokens": 1270}
+{"step": "grader", "id": "web-04", "expected": "weak", "decision": "weak", "correct": true, "tokens": 1185}
+{"step": "grader", "id": "web-05", "expected": "weak", "decision": "weak", "correct": true, "tokens": 1345}
+{"step": "grader", "id": "web-06", "expected": "weak", "decision": "weak", "correct": true, "tokens": 987}
+{"step": "grader", "id": "web-07", "expected": "weak", "decision": "weak", "correct": true, "tokens": 1180}
+{"step": "grader", "id": "web-08", "expected": "weak", "decision": "weak", "correct": true, "tokens": 1380}
+{"step": "grader", "id": "web-09", "expected": "weak", "decision": "weak", "correct": true, "tokens": 1328}
+{"step": "grader", "id": "web-10", "expected": "weak", "decision": "weak", "correct": true, "tokens": 1081}

@@ -1,0 +1,23 @@
+{
+  "tag": "vector-only-v2",
+  "mode": "retrieval-only",
+  "embedding_model": "multilingual-e5-large",
+  "rerank_model": null,
+  "top_k": 4,
+  "questions": 47,
+  "strict_hit@1_%": 53.2,
+  "strict_hit@4_%": 87.2,
+  "strict_hit@10_%": 91.5,
+  "strict_mrr@10": 0.672,
+  "content_hit@1_%": 66.0,
+  "content_hit@4_%": 91.5,
+  "content_hit@10_%": 95.7,
+  "content_mrr@10": 0.768,
+  "correct_manual_in_top4_%": 91.5,
+  "content_misses@4": [
+    "kb-07",
+    "kb-08",
+    "kb-10",
+    "kb-27"
+  ]
+}

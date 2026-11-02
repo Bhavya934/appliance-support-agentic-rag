@@ -1,0 +1,132 @@
+[
+  {
+    "setup": "dense@4",
+    "strict_hit_%": 87.2,
+    "content_hit_%": 91.5,
+    "strict_hit@1_%": 57.4,
+    "content_mrr": 0.782,
+    "content_misses": [
+      "kb-07",
+      "kb-08",
+      "kb-10",
+      "kb-27"
+    ]
+  },
+  {
+    "setup": "dense@6",
+    "strict_hit_%": 87.2,
+    "content_hit_%": 91.5,
+    "strict_hit@1_%": 57.4,
+    "content_mrr": 0.782,
+    "content_misses": [
+      "kb-07",
+      "kb-08",
+      "kb-10",
+      "kb-27"
+    ]
+  },
+  {
+    "setup": "bm25@4",
+    "strict_hit_%": 80.9,
+    "content_hit_%": 87.2,
+    "strict_hit@1_%": 44.7,
+    "content_mrr": 0.727,
+    "content_misses": [
+      "kb-01",
+      "kb-05",
+      "kb-12",
+      "kb-20",
+      "kb-23",
+      "kb-36"
+    ]
+  },
+  {
+    "setup": "bm25@6",
+    "strict_hit_%": 83.0,
+    "content_hit_%": 89.4,
+    "strict_hit@1_%": 44.7,
+    "content_mrr": 0.727,
+    "content_misses": [
+      "kb-01",
+      "kb-12",
+      "kb-20",
+      "kb-23",
+      "kb-36"
+    ]
+  },
+  {
+    "setup": "hybrid@4",
+    "strict_hit_%": 85.1,
+    "content_hit_%": 89.4,
+    "strict_hit@1_%": 57.4,
+    "content_mrr": 0.814,
+    "content_misses": [
+      "kb-07",
+      "kb-10",
+      "kb-12",
+      "kb-23",
+      "kb-27"
+    ]
+  },
+  {
+    "setup": "hybrid@6",
+    "strict_hit_%": 89.4,
+    "content_hit_%": 93.6,
+    "strict_hit@1_%": 57.4,
+    "content_mrr": 0.814,
+    "content_misses": [
+      "kb-10",
+      "kb-23",
+      "kb-27"
+    ]
+  },
+  {
+    "setup": "dense+rerank@4",
+    "strict_hit_%": 87.2,
+    "content_hit_%": 93.6,
+    "strict_hit@1_%": 66.0,
+    "content_mrr": 0.858,
+    "content_misses": [
+      "kb-01",
+      "kb-10",
+      "kb-32"
+    ]
+  },
+  {
+    "setup": "dense+rerank@6",
+    "strict_hit_%": 89.4,
+    "content_hit_%": 93.6,
+    "strict_hit@1_%": 66.0,
+    "content_mrr": 0.858,
+    "content_misses": [
+      "kb-01",
+      "kb-10",
+      "kb-32"
+    ]
+  },
+  {
+    "setup": "hybrid+rerank@4",
+    "strict_hit_%": 87.2,
+    "content_hit_%": 91.5,
+    "strict_hit@1_%": 66.0,
+    "content_mrr": 0.857,
+    "content_misses": [
+      "kb-01",
+      "kb-10",
+      "kb-12",
+      "kb-32"
+    ]
+  },
+  {
+    "setup": "hybrid+rerank@6",
+    "strict_hit_%": 91.5,
+    "content_hit_%": 93.6,
+    "strict_hit@1_%": 66.0,
+    "content_mrr": 0.857,
+    "content_misses": [
+      "kb-01",
+      "kb-12",
+      "kb-32"
+    ]
+  }
+]

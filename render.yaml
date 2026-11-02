@@ -1,0 +1,18 @@
+# Render Blueprint: New > Blueprint > pick this repo, then fill in the three API keys when asked.
+services:
+  - type: web
+    name: appliance-support-copilot
+    runtime: docker
+    plan: free
+    region: virginia          # same AWS region (us-east-1) as the Pinecone index
+    healthCheckPath: /api/health
+    autoDeploy: true          # redeploys on every push to main
+    envVars:
+      - key: PUBLIC_DEMO      # uploads off, per-visitor and daily question limits on
+        value: "true"
+      - key: GROQ_API_KEY
+        sync: false           # secret: entered in the Render dashboard, never stored in Git
+      - key: PINECONE_API_KEY
+        sync: false
+      - key: TAVILY_API_KEY
+        sync: false

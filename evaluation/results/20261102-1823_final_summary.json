@@ -1,0 +1,36 @@
+{
+  "tag": "final",
+  "timestamp": "20261102-1823",
+  "complete": true,
+  "copilot_model": "openai/gpt-oss-120b",
+  "decision_model": "openai/gpt-oss-20b",
+  "judge_model": "qwen/qwen3.8-27b",
+  "embedding_model": "multilingual-e5-large",
+  "rerank_model": "bge-reranker-v2-m3",
+  "top_k": 4,
+  "questions": 62,
+  "path_accuracy_%": 98.4,
+  "path_accuracy_by_type_%": {
+    "kb": 100.0,
+    "web": 90.0,
+    "direct": 100.0
+  },
+  "strict_hit@1_%": 66.0,
+  "strict_hit@4_%": 87.2,
+  "strict_hit@10_%": 93.6,
+  "strict_mrr@10": 0.761,
+  "content_hit@1_%": 78.7,
+  "content_hit@4_%": 93.6,
+  "content_hit@10_%": 95.7,
+  "content_mrr@10": 0.858,
+  "correct_manual_in_top4_%": 93.6,
+  "content_misses@4": [
+    "kb-01",
+    "kb-10",
+    "kb-32"
+  ],
+  "answer_correct_%": 78.7,
+  "answer_correct_or_partial_%": 100.0,
+  "faithfulness_%": 100.0,
+  "avg_latency_s": 8.0
+}

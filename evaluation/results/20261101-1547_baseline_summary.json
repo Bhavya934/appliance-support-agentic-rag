@@ -1,0 +1,26 @@
+{
+  "tag": "baseline",
+  "timestamp": "20261101-1547",
+  "complete": false,
+  "note": "55/62 done; stopped by Groq daily token limit. Finish with --resume.",
+  "copilot_model": "openai/gpt-oss-120b",
+  "judge_model": "qwen/qwen3.8-27b",
+  "embedding_model": "multilingual-e5-large",
+  "top_k": 4,
+  "questions": 55,
+  "path_accuracy_%": 94.5,
+  "path_accuracy_by_type_%": {
+    "kb": 97.9,
+    "web": 75.0,
+    "direct": null
+  },
+  "retrieval_hit@1_%": 57.4,
+  "retrieval_hit@4_%": 87.2,
+  "retrieval_hit@10_%": 91.5,
+  "retrieval_mrr@10": 0.697,
+  "correct_manual_in_top4_%": 91.5,
+  "answer_correct_%": 57.4,
+  "answer_correct_or_partial_%": 91.5,
+  "faithfulness_%": 93.6,
+  "avg_latency_s": 21.7
+}

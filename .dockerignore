@@ -1,0 +1,21 @@
+.env
+.git
+.gitignore
+.vscode
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+venv
+.venv
+env
+.pytest_cache
+tests
+*.log
+
+# Not needed at runtime: answers come from Pinecone and cite the manuals' public URLs
+data/appliance_kb/*.pdf
+data/audit.db
+uploads/*
+!uploads/.gitkeep
+evaluation/results
