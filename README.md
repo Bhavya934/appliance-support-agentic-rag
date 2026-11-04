@@ -239,14 +239,6 @@ render.yaml              Render deployment (public-demo mode)
 - **Production touches:** free-tier rate-limit handling, page-level citation links to the official PDFs, a public-demo
   mode with per-visitor limits, a non-root Docker image, and a dependency status check for deployments.
 
-## Known limitations
-
-- One web question (*"How much does a Bosch technician visit cost in India?"*) ended with "no reliable evidence":
-  the web results were too thin, so the agent declined rather than guess.
-- Answer quality is scored by an LLM judge on a 47-question set; treat differences of a few points with caution.
-- Two hob manuals use symbol fonts, so control-panel icons extract as garbled characters.
-- Free tiers cap usage: Groq allows ≈ 200K tokens/day **per model**, refilling gradually (~8K/hour).
-
 ## License
 
 Apache-2.0. See [LICENSE](LICENSE).
